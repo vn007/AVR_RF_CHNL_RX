@@ -1,0 +1,35 @@
+# Lines starting with '#' are considered comments.
+# Ignore any file named foo.txt.
+#foo.txt
+# Ignore (generated) html files,
+#*.html
+# except foo.html which is maintained by hand.
+#!foo.html
+# Ignore objects and archives.
+#*.[oa]
+
+Debug
+Release
+__*
+bin
+obj
+
+*.cbp
+*.depend
+*.cscope_file_list
+
+*.o
+*.d
+*.elf
+*.hex
+*.eep
+*.sym
+*.bin
+*.lss
+*.map
+*.bak
+*.class
+
+*.atsln
+*.atsuo
+*.cproj
